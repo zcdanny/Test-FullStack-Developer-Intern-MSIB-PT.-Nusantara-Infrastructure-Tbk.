@@ -1,0 +1,42 @@
+{
+  "name": "book-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.2",
+    "ajax": "0.0.4",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "cookie-cutter": "^0.2.0",
+    "cookies-next": "^2.1.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.3",
+    "eslint-config-next": "13.1.2",
+    "next": "13.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.4",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "next",
+      "next/core-web-vitals",
+      "standard"
+    ]
+  },
+  "proxy": "https://basic-book-crud-e3u54evafq-et.a.run.app"
+}
